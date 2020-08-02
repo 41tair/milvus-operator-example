@@ -1,0 +1,7 @@
+apiVersion: "zilliz.com/v1"
+kind: Milvus
+metadata:
+  name: milvus-crd-test
+spec:
+  milvusSpec: "this is milvus spec"
+  image: milvusdb/milvus
